@@ -23,7 +23,6 @@ int longest_increase_seq(int* A,int n, int curr, int prev,vector<vector<int>> &d
 
 int main() 
 {
-    cout << "Hello, World!";
     int arr[] = {0,1,0,3,2,3};
     int n = sizeof(arr)/sizeof(arr[0]);
     vector<vector<int>> dp(n,vector<int> (n+1,-1));
